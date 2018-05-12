@@ -9,11 +9,10 @@
 
     @media (max-width:659px)  {
         li{
-          left:30px;
-          font-size: 1.3em;
+          left:10px;
+          font-size: 1.4em;
           padding: 8px 20px 9px 20px;
-          margin-right: 15px;
-
+          margin-right:5px;
 
         }
     }
@@ -26,14 +25,14 @@
            font-size: 12em;
         }
     }
-    @media  (min-width:390px) and (max-width:570px) {
+    @media  (min-width:331px) and (max-width:570px) {
         .titulo-about{
            font-size: 10em;
         }
     }
-    @media (max-width:390px) {
+    @media (max-width:330px) {
         .titulo-about{
-           font-size: 9em;
+           font-size: 8.1em;
         }
     }
 
@@ -50,8 +49,15 @@
     @media (max-width:770px){
        #iris{
          left:35%;
+         top: 30%;
+       }
 
+       @media (max-width:390px) {
+           #iris{
+               left:20%;
+               top: 25%;
 
+           }
        }
     }
 
@@ -67,20 +73,23 @@
       }
     }
 
-    /*CONTAINER-CARDS PRODUTOS*/
+    /*CONTAINER-CARDS * PRODUTOS*/
 
     @media (min-width:880px) and (max-width:980px) {
         .produto{
-          padding-left:5%;
+          padding-left:0px;
+        }
+        .container-cards{
+          grid-template-columns: repeat(2,240px);
         }
     }
 
-    @media (max-width:1140px){
+    @media (min-width:981px) and(max-width:1140px){
         .container-cards{
           grid-template-columns: repeat(2,240px);
         }
         .produto{
-          padding-left:0px;
+          padding-left: 0 auto;
         }
     }
 
@@ -92,24 +101,23 @@
            grid-auto-rows: 310px;
          }
 
+         .produto{
+          padding:5px 0 0 337px;
 
+         }
 
 
     }
 
     @media (max-width:380px) {
 
-         .produto{
-           padding-left: 0px;
-
-         }
 
 
            .container-cards{
              grid-template-columns:220px;
              grid-template-rows: 290px;
              grid-auto-rows: 310px;
-             margin-left: 25%;
+             aling-items: and ;
            }
 
 
