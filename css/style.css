@@ -110,7 +110,7 @@ li:hover{
   height: auto;
   position: relative;
   box-sizing: border-box;
-  padding: 10px 0 20px 15%;
+  padding: 10px 0 20px 30%;
   top: 700px;
   background: linear-gradient(to bottom,rgba(126, 214, 223,.5),rgba(34, 166, 179,.8));
   margin-top: 3px;
@@ -135,7 +135,7 @@ li:hover{
   grid-template-columns: repeat(2,350px);
   grid-template-rows: 210px;
   grid-gap: 20px;
-  margin-left: 20%;
+  margin-left: 25%;
   margin-bottom: 50px;
 }
 
